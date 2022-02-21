@@ -21,8 +21,8 @@ const livros = [
         id: 3,
         nome: "Cultura da Honra",
         autor: "Danny Silk",
-        categoria: "Espiritual",
-        paginas: 205,
+        categoria: "Cristao",
+        paginas: 216,
         recomendo: true,
         leu: true
     },
@@ -37,21 +37,48 @@ const livros = [
     },
     {
         id: 5,
-        nome: "Obras Maiores",
-        autor: "Cesinha Sitta",
-        categoria: "Obra Crista",
-        paginas: 84,
+        nome: "Homem Ao Máximo",
+        autor: "Edwin Louis Cole",
+        categoria: "Cristao",
+        paginas: 204,
         recomendo: true,
-        leu: false
+        leu: true
     },
     {
         id: 6,
+        nome: "Obras Maiores",
+        autor: "Cesinha Sitta",
+        categoria: "Cristao",
+        paginas: 84,
+        recomendo: true,
+        leu: true
+    },
+    {
+        id: 7,
+        nome: "Como Dizer Tudo em Inglês",
+        autor: "Ron Martinez",
+        categoria: "Estudos",
+        paginas: 288,
+        recomendo: true,
+        leu: true
+    },
+    {
+        id: 8,
         nome: "A Arte da Guerra",
         autor: "Sun Tzu",
         categoria: "Estrategia",
         paginas: 128,
         recomendo: true,
         leu: true
+    },
+    {
+        id: 9,
+        nome: "Céus Abertos",
+        autor: "Carlito Paes",
+        categoria: "Cristao",
+        paginas: 400,
+        recomendo: true,
+        leu: false
     }
     
 ]

@@ -6,11 +6,11 @@
 const livros = require('./database')
 const readline = require('readline-sync')
 
-const entradaInicial = readline.question('Deseja buscar um Livro? S/N')
+const entradaInicial = readline.question('Deseja buscar um Livro? S/N:')
 
-if (entradaInicial.toLocaleUpperCase()==='S'){
+if (entradaInicial.toLocaleUpperCase()===  'S'){
     console.log('Essas são as categorias disponíveis:')
-    console.log('Lideranca', '/Financas', '/Espiritual', '/Planejamento', '/Crista', '/Estrategia')
+    console.log('/Cristao','/Estudos','/Estrategia','/Lideranca',)
 
     const entradaCategoria = readline.question('Qual categoria voce escolhe:')
 
